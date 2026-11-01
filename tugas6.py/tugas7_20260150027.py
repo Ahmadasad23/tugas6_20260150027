@@ -34,7 +34,6 @@ while True:
             else:
                 break
         elif pilihan == 2:
-            modul_evaluasi.cetak_pelan("Sistem dimatikan")
             break
     except ValueError:
         print("[ERROR SYSTEM] Tipe data salah! Anda memasukan teks, harap masukan ANGKA.\n")
